@@ -1,0 +1,125 @@
+V "GNAT Lib v10"
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=2
+
+U datos_protegidos%b	datos_protegidos.adb	5fb73621 NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U datos_protegidos%s	datos_protegidos.ads	38555c89 EE NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-finali.ads		20230707070819 bf4f806b ada.finalization%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D datos_protegidos.ads	20250410171759 38555c89 datos_protegidos%s
+D datos_protegidos.adb	20250410171808 c916bfc5 datos_protegidos%b
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-c.ads		20230707070819 5421119b interfaces.c%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D system.ads		20230707070819 4635ec04 system%s
+D s-atacco.ads		20230707070819 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-finroo.ads		20230707070819 4ff27390 system.finalization_root%s
+D s-linux.ads		20230707070818 ed0b8aee system.linux%s
+D s-multip.ads		20230707070819 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20230708061938 56602da1 system.os_constants%s
+D s-osinte.ads		20230708061938 baabc537 system.os_interface%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stausa.ads		20230707070819 017a0a05 system.stack_usage%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20230707070818 2b3f8252 system.task_info%s
+D s-taspri.ads		20230707070818 f40ac08d system.task_primitives%s
+D s-taskin.ads		20230707070818 b9d612e2 system.tasking%s
+D s-taprob.ads		20230707070818 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20230707070819 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20230707070819 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20230707070819 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [incrementar datos_protegidos__datos1 8 15 none]
+G c Z s b [decrementar datos_protegidos__datos1 9 15 none]
+G c Z s b [obtener_vble_compartida datos_protegidos__datos1 10 18 none]
+G c Z s b [obtener_factor datos_protegidos__datos1 11 18 none]
+G c Z s b [obtener_periodo1 datos_protegidos__datos1 12 18 none]
+G c Z s b [obtener_periodo2 datos_protegidos__datos1 13 18 none]
+G c Z s b [obtener_status datos_protegidos__datos1 14 18 none]
+G c Z s b [cambiar_estado_terminado datos_protegidos__datos1 15 19 none]
+G c Z s b [datos1__obtener_vble_compartidaN datos_protegidos 10 9 none]
+G c Z s b [datos1__obtener_vble_compartidaP datos_protegidos 10 9 none]
+G c Z s b [datos1__obtener_factorN datos_protegidos 11 9 none]
+G c Z s b [datos1__obtener_factorP datos_protegidos 11 9 none]
+G c Z s b [datos1__obtener_periodo1N datos_protegidos 12 9 none]
+G c Z s b [datos1__obtener_periodo1P datos_protegidos 12 9 none]
+G c Z s b [datos1__obtener_periodo2N datos_protegidos 13 9 none]
+G c Z s b [datos1__obtener_periodo2P datos_protegidos 13 9 none]
+G c Z s b [datos1__obtener_statusN datos_protegidos 14 9 none]
+G c Z s b [datos1__obtener_statusP datos_protegidos 14 9 none]
+G c Z s b [datos1__cambiar_estado_terminadoN datos_protegidos 15 9 none]
+G c Z s b [datos1__cambiar_estado_terminadoP datos_protegidos 15 9 none]
+G c Z s s [datos1VDI datos_protegidos 7 5 none]
+G c Z s s [datos1VDF datos_protegidos 7 5 none]
+G c Z s s [datos1VIP datos_protegidos 7 5 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|1r6 1r23
+X 7 a-textio.ads
+57K13*Text_IO 727e16 10|1w10 1r27
+X 9 datos_protegidos.ads
+1K9*Datos_Protegidos 26l5 26e21 10|3b14 56l5 56t21
+4E10*Estado 4e47 14r40 21r18 10|40r40
+4n21*Activo{4E10} 21r28 10|50r27
+4n29*Parado{4E10}
+4n37*Terminado{4E10} 10|48r27
+7W20*Datos1 17E9 24l9 24e15 10|5b20 54l9 54t15
+8Y15 Incrementar 10|6b15 11l13 11t24
+9Y15 Decrementar 10|13b15 18l13 18t24
+10V18 Obtener_Vble_Compartida{integer} 10|20b18 23l13 23t36
+11V18 Obtener_Factor{integer} 10|25b18 28l13 28t27
+12V18 Obtener_Periodo1{integer} 10|30b18 33l13 33t29
+13V18 Obtener_Periodo2{integer} 10|35b18 38l13 38t29
+14V18 Obtener_Status{4E10} 10|40b18 43l13 43t27
+15U19 Cambiar_Estado_Terminado 15>44 10|45b19 52l13 52t37
+15b44 Estado{boolean} 10|45b44 47r16
+17i9 vble_compartida{integer} 10|9r17 9r36 16r17 16r36 22r20
+18i9 periodo1{integer} 10|32r20
+19i9 periodo2{integer} 10|37r20
+20i9 factor{integer} 10|9r54 16r54 27r20
+21e9 status{4E10} 10|42r20 48r17 50r17
+22b9 Puede_Incrementar{boolean} 10|6r32 8r16
+23b9 Puede_Decrementar{boolean} 10|13r32 15r16
+X 28 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+

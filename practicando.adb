@@ -19,3 +19,11 @@ procedure Practicando is
 begin
    Mayormenor(Num);
 end Practicando; 
+
+for I in 1..5 loop
+   Put_Line("Hola Mundo");
+end loop;
+
+while I<10 loop
+   
+end loop;

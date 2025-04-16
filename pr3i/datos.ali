@@ -1,0 +1,22 @@
+V "GNAT Lib v10"
+P ZX
+
+RN
+
+U datos%s		datos.ads		d3b5feac NE OO PK IL
+
+D datos.ads		20131028151250 d3b5feac datos%s
+D system.ads		20230707070819 4635ec04 system%s
+G a e
+X 1 datos.ads
+2K9*datos 12l5 12e10
+4E12*Estado 4e49 9r15
+4n23*Activo{4E12} 9r25
+4n31*Parado{4E12}
+4n39*Terminado{4E12}
+5i7*vble_compartida{integer}
+6i7*Periodo1{integer}
+7i7*Periodo2{integer}
+8i7*Factor{integer}
+9e7*Status{4E12}
+

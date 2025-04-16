@@ -1,0 +1,141 @@
+V "GNAT Lib v10"
+M P W=b
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_NESTED_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U secuencial%b		secuencial.adb		1bdf0a3c NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W controlador%s		controlador.adb		controlador.ali
+W sopa%s		sopa.adb		sopa.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-charac.ads		20230707070819 2d3ec45b ada.characters%s
+D a-chlat1.ads		20230707070819 66457d31 ada.characters.latin_1%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-finali.ads		20230707070819 bf4f806b ada.finalization%s
+D a-reatim.ads		20230707070818 0240fc73 ada.real_time%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-string.ads		20230707070819 90ac6797 ada.strings%s
+D a-strmap.ads		20230707070819 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20230707070819 1656705b ada.strings.unbounded%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D controlador.ads	20250416064249 516dd5b9 controlador%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-c.ads		20230707070819 5421119b interfaces.c%s
+D secuencial.adb	20250416064325 92372305 secuencial%b
+D sopa.ads		20250416063213 ced38cdb sopa%s
+D system.ads		20230707070819 4635ec04 system%s
+D s-atacco.ads		20230707070819 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20230707070819 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-finmas.ads		20230707070819 7811a767 system.finalization_masters%s
+D s-finroo.ads		20230707070819 4ff27390 system.finalization_root%s
+D s-linux.ads		20230707070818 ed0b8aee system.linux%s
+D s-memory.ads		20230707070819 597d6634 system.memory%s
+D s-multip.ads		20230707070819 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20230708061938 56602da1 system.os_constants%s
+D s-osinte.ads		20230708061938 baabc537 system.os_interface%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stausa.ads		20230707070819 017a0a05 system.stack_usage%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stalib.adb		20230707070819 f2fe2716 system.standard_library%b
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20230707070819 b16154c2 system.storage_pools%s
+D s-stposu.ads		20230707070819 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20230707070819 aedef97e system.stream_attributes%s
+D s-tasinf.ads		20230707070818 2b3f8252 system.task_info%s
+D s-taspri.ads		20230707070818 f40ac08d system.task_primitives%s
+D s-taprop.ads		20230707070818 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20230707070818 b9d612e2 system.tasking%s
+D s-taprob.ads		20230707070818 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20230707070819 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20230707070819 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tassta.ads		20230707070818 cca55c94 system.tasking.stages%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+G a e
+G c Z b b [secuencial standard 7 11 none]
+G r s TlstpalabrasB [secuencial standard 7 11 none] [TlstpalabrasBIP sopa 12 4 none]
+G r l TlstpalabrasB [secuencial standard 7 11 none] [TlstpalabrasBDI sopa 12 4 none]
+G r k TlstpalabrasB [secuencial standard 7 11 none] [TlstpalabrasBDF sopa 12 4 none]
+G r o none [secuencial standard 7 11 none] [espera_palabra controlador__sincroniza 19 13 none]
+G r c none [secuencial standard 7 11 none] [busca sopa 42 14 none]
+G r p none [secuencial standard 7 11 none] [fin_busqueda controlador__sincroniza 22 17 none]
+G r c none [secuencial standard 7 11 none] [pide_datos sopa 21 14 none]
+G r p none [secuencial standard 7 11 none] [terminar controlador__sincroniza 28 17 none]
+G r p none [secuencial standard 7 11 none] [nueva_palabra controlador__sincroniza 16 17 none]
+G r o none [secuencial standard 7 11 none] [espera_fin_busqueda controlador__sincroniza 25 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|2r6 2r33
+X 8 a-string.ads
+16K13*Strings 35e16 16|2r10 2r37
+X 10 a-strunb.ads
+82K21*Unbounded 756e26 16|2w18 2r45
+87R9*Unbounded_String<5|43R9> 739e14 16|16r12
+X 13 controlador.ads
+5K9*Controlador 36e16 16|4w6 20r13 22r13 37r10 42r10 45r7
+12w14*Sincroniza 16|20r25 22r25 37r22 42r22 45r19
+16U17 Nueva_Palabra 16|42s33
+19Y13 Espera_Palabra 16|20s36
+22U17 Fin_Busqueda 16|22s36
+25Y13 Espera_Fin_Busqueda 16|45s30
+28U17 Terminar 16|37s33
+X 16 secuencial.adb
+7U11*Secuencial 7b11 48l5 48t15
+9i4 Numero_Palabras{17|11I12} 34m23 36r10 41r19
+10a4 Palabra{17|12A9} 34m40 42r47
+12T14 Worker 13l8 13e14 15b14 28l8 28t14 30r17
+16r7 Pal{10|87R9} 20m51 21r24
+30t4 T1{12T14}
+30t8 T2{12T14}
+30t12 T3{12T14}
+41i11 P{integer} 42r55
+X 17 sopa.ads
+4K9*Sopa 16|3w6 9r22 10r22 21r13 21r29 34r7 17|59e9
+11I12*NumeroPalabras{natural} 16|9r27
+12A9*LstPalabras(10|87R9)<integer> 16|10r27
+21U14*Pide_Datos 16|34s12
+32U14*EscribeConMutex 16|21r34
+42U14*Busca 16|21s18
+X 18 system.ads
+67M9*Address
+X 25 s-memory.ads
+53V13*Alloc{18|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{18|67M9} 105i<c,__gnat_realloc>22
+X 33 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 35 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+

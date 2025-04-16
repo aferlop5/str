@@ -1,0 +1,124 @@
+V "GNAT Lib v10"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_NESTED_FINALIZATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U main%b		main.adb		e05e9c13 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W datos%s		datos.ads		datos.ali
+W datos_protegidos%s	datos_protegidos.adb	datos_protegidos.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W tareas%s		tareas.adb		tareas.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-finali.ads		20230707070819 bf4f806b ada.finalization%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20230707070818 0240fc73 ada.real_time%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D datos.ads		20131028151250 d3b5feac datos%s
+D datos_protegidos.ads	20250410171759 38555c89 datos_protegidos%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-c.ads		20230707070819 5421119b interfaces.c%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D main.adb		20250410171819 b35ed45f main%b
+D system.ads		20230707070819 4635ec04 system%s
+D s-atacco.ads		20230707070819 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-finroo.ads		20230707070819 4ff27390 system.finalization_root%s
+D s-linux.ads		20230707070818 ed0b8aee system.linux%s
+D s-memory.ads		20230707070819 597d6634 system.memory%s
+D s-multip.ads		20230707070819 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20230708061938 56602da1 system.os_constants%s
+D s-osinte.ads		20230708061938 baabc537 system.os_interface%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stausa.ads		20230707070819 017a0a05 system.stack_usage%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stalib.adb		20230707070819 f2fe2716 system.standard_library%b
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20230707070818 2b3f8252 system.task_info%s
+D s-taspri.ads		20230707070818 f40ac08d system.task_primitives%s
+D s-taprop.ads		20230707070818 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20230707070818 b9d612e2 system.tasking%s
+D s-taprob.ads		20230707070818 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20230707070819 60ad3dae system.tasking.protected_objects.entries%s
+D s-tassta.ads		20230707070818 cca55c94 system.tasking.stages%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20230707070819 1b7d22d2 system.wch_con%s
+D tareas.ads		20250410171827 16143f04 tareas%s
+G a e
+G c Z b b [main standard 6 11 none]
+G r s datos1 [main standard 6 11 none] [datos1VIP datos_protegidos 7 5 none]
+G r l datos1 [main standard 6 11 none] [datos1VDI datos_protegidos 7 5 none]
+G r k datos1 [main standard 6 11 none] [datos1VDF datos_protegidos 7 5 none]
+G r p none [main standard 6 11 none] [obtener_status datos_protegidos__datos1 14 18 none]
+G r p none [main standard 6 11 none] [cambiar_estado_terminado datos_protegidos__datos1 15 19 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r23
+X 8 a-textio.ads
+57K13*Text_IO 727e16 15|1w10 1r27
+381U14*Get 15|25s10
+465U14*Put 15|24s10
+508U14*Put_Line 15|14s10 15s10 16s10 17s10 18s10 19s10 20s10 21s10 22s10
+. 30s19 33s19 37s19 40s19 44s16 47s19 50s19 54s19 57s19 61s16 63s28 69s4
+X 10 datos.ads
+2K9*datos 12e10 15|2w6 2r17
+X 11 datos_protegidos.ads
+1K9*Datos_Protegidos 26e21 15|4w6 4r28
+4n21*Activo{4E10} 15|29r43 36r44 46r43 53r44
+7W20*Datos1 24e15 15|11r16
+14V18 Obtener_Status{4E10} 15|29s26 36s26 46s26 53s26
+15U19 Cambiar_Estado_Terminado 15|32s26 39s26 43s23 49s26 56s26 60s23
+X 15 main.adb
+6U11*Main 6b11 73l5 73t9
+7t9 Operador 9b14 66l8 66t16
+10e7 Opcion{character} 25m14 27r15
+11w7 Datos2{11|7W20} 29r19 32r19 36r19 39r19 43r16 46r19 49r19 53r19 56r19
+. 60r16
+X 16 system.ads
+67M9*Address
+X 23 s-memory.ads
+53V13*Alloc{16|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{16|67M9} 105i<c,__gnat_realloc>22
+X 31 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 33 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 45 tareas.ads
+1K9*Tareas 15|3w6 3r18 45|9e11
+
