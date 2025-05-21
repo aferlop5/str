@@ -51,8 +51,8 @@ D a-strmap.ads		20230707070819 e8bb714a ada.strings.maps%s
 D a-strunb.ads		20230707070819 1656705b ada.strings.unbounded%s
 D a-tags.ads		20230707070819 491b781d ada.tags%s
 D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
-D controlador.ads	20250416075131 bdf84ab8 controlador%s
-D controlador.adb	20250416075057 9a6118b9 controlador%b
+D controlador.ads	20250416070748 bdf84ab8 controlador%s
+D controlador.adb	20250416070748 9a6118b9 controlador%b
 D interfac.ads		20230707070819 5ab55268 interfaces%s
 D i-c.ads		20230707070819 5421119b interfaces.c%s
 D system.ads		20230707070819 4635ec04 system%s

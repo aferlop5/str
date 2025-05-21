@@ -51,12 +51,12 @@ D a-strunb.ads		20230707070819 1656705b ada.strings.unbounded%s
 D a-tags.ads		20230707070819 491b781d ada.tags%s
 D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
 D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
-D controlador.ads	20250416075131 bdf84ab8 controlador%s
+D controlador.ads	20250416081917 bdf84ab8 controlador%s
 D interfac.ads		20230707070819 5ab55268 interfaces%s
 D i-c.ads		20230707070819 5421119b interfaces.c%s
 D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
-D secuencial.adb	20250416075204 cab8c4c6 secuencial%b
-D sopa.ads		20250416063213 ced38cdb sopa%s
+D secuencial.adb	20250416081917 cab8c4c6 secuencial%b
+D sopa.ads		20250416081917 ced38cdb sopa%s
 D system.ads		20230707070819 4635ec04 system%s
 D s-atacco.ads		20230707070819 4c36d12f system.address_to_access_conversions%s
 D s-atocou.ads		20230707070819 b45c2d8d system.atomic_counters%s
